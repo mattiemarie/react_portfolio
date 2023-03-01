@@ -4,7 +4,7 @@ import React from 'react';
 //Pages
 import AboutMe from './pages/AboutMe/aboutme';
 import Contact from './pages/Contact/contact';
-import Portfolio from './pages/Projects/projects';
+import Projects from './pages/Projects/projects';
 import Resume from './pages/Resume/resume';
 
 //Components
@@ -17,7 +17,13 @@ import Footer from './components/footer';
 function App() {
     return (
         <div className="react-portfolio">
-            <ReactPortfollio />
+            <Header />
+            <Nav />
+            <AboutMe />
+            <Projects />
+            <Resume />
+            <Contact />
+            <Footer />
         </div>
     );
 }
