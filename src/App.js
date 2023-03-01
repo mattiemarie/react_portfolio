@@ -2,10 +2,10 @@ import './App.css';
 import React from 'react';
 
 //Pages
-import AboutMe from './pages/aboutme';
-import Contact from './pages/contact';
-import Portfolio from './pages/portfolio';
-import Resume from './pages/resume';
+import AboutMe from './pages/AboutMe/aboutme';
+import Contact from './pages/Contact/contact';
+import Portfolio from './pages/Projects/projects';
+import Resume from './pages/Resume/resume';
 
 //Components
 import Nav from './components/navbar';
