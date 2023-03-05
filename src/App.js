@@ -1,22 +1,20 @@
-import './App.css';
-import React from 'react';
+//React
+import React from "react";
 
 //Pages
-import About from './pages/AboutMe/aboutme';
-import Contact from './pages/Contact/contact';
-import Projects from './pages/Projects/projects';
-import Resume from './pages/Resume/resume';
-
-//Components
+import About from './components/About';
+import Contact from './components/Contact';
+import Projects from './components/Projects';
+import Resume from './components/Resume';
 import Navbar from './components/Navbar';
-import Header from './components/Header';
-import Footer from './components/Footer';
+import Header from './components/Header'
+import Footer from './components/Contact';
 
 
 //Add other fillings into function App()
-function App() {
+export default function App() {
     return (
-        <div className="react-portfolio">
+        <main>
             <Header />
             <Navbar />
             <About />
@@ -24,8 +22,6 @@ function App() {
             <Resume />
             <Contact />
             <Footer />
-        </div>
+        </main>
     );
 }
-
-export default App;
