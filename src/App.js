@@ -2,15 +2,15 @@ import './App.css';
 import React from 'react';
 
 //Pages
-import AboutMe from './pages/AboutMe/aboutme';
+import About from './pages/AboutMe/aboutme';
 import Contact from './pages/Contact/contact';
 import Projects from './pages/Projects/projects';
 import Resume from './pages/Resume/resume';
 
 //Components
-import Nav from './components/navbar';
-import Header from './components/header';
-import Footer from './components/footer';
+import Navbar from './components/Navbar';
+import Header from './components/Header';
+import Footer from './components/Footer';
 
 
 //Add other fillings into function App()
@@ -18,8 +18,8 @@ function App() {
     return (
         <div className="react-portfolio">
             <Header />
-            <Nav />
-            <AboutMe />
+            <Navbar />
+            <About />
             <Projects />
             <Resume />
             <Contact />

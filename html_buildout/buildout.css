@@ -1,6 +1,33 @@
-/* Nav Bar */
-.nav-link {
-    font-size: 70px;
-    align-items: center;
-    text-align: center;
+/* Color Palette */
+:root {
+    --red: rgba(229, 41, 91, 1);
+    --dkpink: rgba(208, 50, 173, 1);
+    --pink: rgba(218, 79, 162, 1);
+    --warmpink: rgba(224, 81, 143, 1);
+    --ltpink: rgba(223, 111, 149, 1);
+    --magenta: rgba(204, 39, 178, 1);
+    --violet: rgba(161, 111, 176, 1);
+    --blue: rgba(90, 111, 176, 1);
+    --green: rgba(118, 169, 94, 1);
+    --gold: rgba(215, 154, 71, 1);
+    --yellow: rgb(243, 213, 92);
 }
+
+/* Nav Bar */
+.navbar {
+    background-color: var(--ltpink);
+}
+
+.navbar-nav {
+    font-size: 25px;
+    margin-left: 20px;
+}
+
+
+
+/* Home Page Content */
+#homepage-image {
+
+}
+
+
