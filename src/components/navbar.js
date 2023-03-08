@@ -1,6 +1,6 @@
 import React from "react";
 
-export default function Navbar() {
+function Navbar() {
     return (
         <header>
         <nav class="bg-gray-800">
@@ -27,3 +27,5 @@ export default function Navbar() {
         </header>
     );
 }
+
+export default Navbar;

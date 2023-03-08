@@ -1,1 +1,3 @@
-export default function Footer() {}
+function Footer() {}
+
+export default Footer;

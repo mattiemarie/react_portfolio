@@ -4,7 +4,7 @@ export default function About() {
     return (
         <section>
         <div class="flex -space-x-2 overflow-hidden">
-            <img class="inline-block h-8 w-8 rounded-full ring-2 ring-white" src="https://images.unsplash.com/photo-1550525811-e5869dd03032?ixlib=rb-1.2.1&auto=format&fit=facearea&facepad=2&w=256&h=256&q=80" alt=""></img>
+            <img class="inline-block h-8 w-8 rounded-full ring-2 ring-white" src="https://images.unsplash.com/photo-1550525811-e5869dd03032?ixlib=rb-1.2.1&auto=format&fit=facearea&facepad=2&w=256&h=256&q=80" alt=""/>
         </div>
 
         <div className="container mx-auto flex px-10 py-20 md:flex-row flex-col items-center">

@@ -1,1 +1,3 @@
-export default function Header() {}
+function Header() {}
+
+export default Header;

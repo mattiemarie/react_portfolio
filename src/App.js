@@ -12,7 +12,7 @@ import Footer from './components/Contact';
 
 
 //Add other fillings into function App()
-export default function App() {
+function App() {
     return (
         <main>
             <Header />
@@ -25,3 +25,5 @@ export default function App() {
         </main>
     );
 }
+
+export default App;
